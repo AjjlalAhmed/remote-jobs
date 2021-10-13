@@ -1,0 +1,22 @@
+{
+  "name": "get-remote-jobs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ajjlal Ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "node-cron": "^2.0.3",
+    "node-html-parser": "^5.0.0",
+    "puppeteer": "^10.4.0",
+    "sqlite3": "^5.0.2"
+  }
+}
