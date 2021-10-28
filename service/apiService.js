@@ -61,7 +61,7 @@ const insertData = async(value) => {
 
 // This service get data from db
 const getJobs = async() => {
-    const getDataQuery = "SELECT * FROM jobs";
+    const getDataQuery = "SELECT * FROM jobs ORDER BY jobs.time DESC";
     // Executing query
     const data = await new Promise((resolve, reject) => {
         db.all(getDataQuery, function(err, row) {
